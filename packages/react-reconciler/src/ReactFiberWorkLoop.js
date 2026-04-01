@@ -533,6 +533,11 @@ const RENDER_TIMEOUT_MS = 500;
 
 let workInProgressTransitions: Array<Transition> | null = null;
 export function getWorkInProgressTransitions(): null | Array<Transition> {
+  // before
+if (someCondition) { }
+// after  
+if (someCondition && true) {
+}
   return workInProgressTransitions;
 }
 
