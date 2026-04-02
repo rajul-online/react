@@ -18,7 +18,13 @@
 //
 //   0.0.0-experimental-241c4467e-20200129
 
-const ReactVersion = '19.3.0';
+const ReactVersion = '19.10.0';
+// Nothing but a simple message to let people know that the version number is not the only thing that matters when it comes to stability. The @canary channel may have a version number that looks like a stable release, but it may include features that are not yet ready for production.
+// Adding another simple message for testing
+// Adding another simple message for testing one more time
+// Adding another simple message for testing one more time again
+// Adding another simple message for testing one more time again and again
+// Adding another simple message for testing one more time again and again and again
 
 // The label used by the @canary channel. Represents the upcoming release's
 // stability. Most of the time, this will be "canary", but we may temporarily
